@@ -39,6 +39,5 @@ def check_par(in_str):
 
 
 if __name__ == '__main__':
-    check_par('((()))')
     import doctest
     doctest.testmod()
